@@ -327,41 +327,6 @@
                     <h2 class="h2__title animate-in-up">Jelajahi Hasil Karya Unggulan Saya sebagai Web Developer</h2>
                 </div>
 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 <div class="content__block grid-block">
                     <div class="container-fluid p-0">
                         <div class="row g-0 align-items-stretch cards">
@@ -376,7 +341,7 @@
                                             </a>
                                         </div>
                                         <div class="cards__descr">
-                                            <h4 class="cards__title animate-in-up text-center"><?php echo e($item->judul); ?></h4>
+                                            <h4 class="cards__title animate-in-up"><?php echo e($item->judul); ?></h4>
                                             <div class="cards__tags d-flex flex-wrap animate-in-up">
                                                 <span class="rounded-tag tag-outline"><?php echo e($item->label); ?></span>
                                             </div>

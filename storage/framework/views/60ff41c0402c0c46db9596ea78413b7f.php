@@ -24,22 +24,36 @@
         <link rel="stylesheet" href="<?php echo e(asset('detail/assets/css/animate.css')); ?>" />
         <link rel="stylesheet" href="<?php echo e(asset('detail/assets/css/style.css')); ?>" />
         
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
-            h2{
-                color:rgb(154, 164, 224);
+
+            h2 {
+                color: rgb(154, 164, 224);
             }
         </style>
     </head>
 
     <body id="home" style="font-family: 'Syne', sans-serif;">
         <!-- Start Header Section -->
-        <header class=" st-site-header st-style1 st-sticky-header">
+        <header class="st-site-header st-style1 st-sticky-header">
             <div class="st-main-header">
                 <div class="container">
                     <div class="st-main-header-in">
+                        
+                        
+                        
                         <div class="st-main-header-left">
-                            <a href="<?php echo e(url('index')); ?>" class="st-btn st-style2 st-color1 st-size-medium">Kembali</a>
+                            <a class='st-site-branding'>
+                                <a href="<?php echo e(url('index')); ?>">
+                                    <h3  style="color:rgb(130, 141, 209)"">
+                                        <i class="bi bi-arrow-bar-left"></i>     Kembali
+                                    </h3>
+                                </a>
+                            </a>
                         </div>
                         <div class="st-main-header-right">
                             <div class="st-nav">
@@ -59,11 +73,13 @@
                                     <div class="sp-phone-no" style="color:rgb(130, 141, 209)">+62 838 7199 2561</div>
                                     <g>
                                         <g>
-                                          <path d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
+                                            <path
+                                                d="M499.66,376.96l-71.68-71.68c-25.6-25.6-69.12-15.359-79.36,17.92c-7.68,23.041-33.28,35.841-56.32,30.72c-51.2-12.8-120.32-79.36-133.12-133.12c-7.68-23.041,7.68-48.641,30.72-56.32c33.28-10.24,43.52-53.76,17.92-79.36l-71.68-71.68c-20.48-17.92-51.2-17.92-69.12,0l-48.64,48.64c-48.64,51.2,5.12,186.88,125.44,307.2c120.32,120.32,256,176.641,307.2,125.44l48.64-48.64C517.581,425.6,517.581,394.88,499.66,376.96z" />
                                         </g>
-                                      </g>
+                                    </g>
                                     </svg>
                                 </div>
+                                <span class="st-munu-toggle st-toggle-active"></span>
                             </div>
                         </div>
                     </div>
@@ -124,7 +140,8 @@
                                             halaman ini!
                                         </p>
                                         <blockquote id="portofolio">
-                                            <p style="color:rgb(130, 141, 209)">Jelajahi fitur utama dan antarmuka langsung dari produk kami dengan
+                                            <p style="color:rgb(130, 141, 209)">Jelajahi fitur utama dan antarmuka
+                                                langsung dari produk kami dengan
                                                 mengklik tombol</p>
                                             <a href="<?php echo e($portofolio->link); ?>"
                                                 class="st-btn st-style2 st-color1 st-size-medium">Lihat Demo</a>

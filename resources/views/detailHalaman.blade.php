@@ -48,8 +48,8 @@
                         {{-- </div> --}}
                         <div class="st-main-header-left">
                             <a class='st-site-branding'>
-                                <a href="{{ url('index') }}">
-                                    <h3  style="color:rgb(130, 141, 209)"">
+                                <a href="{{ url('/') }}">
+                                    <h3  style="color:rgb(130, 141, 209)">
                                         <i class="bi bi-arrow-bar-left"></i>     Kembali
                                     </h3>
                                 </a>
