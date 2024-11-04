@@ -4,9 +4,9 @@
     use Illuminate\Support\Facades\Route;
     use App\Http\Controllers\PortofolioController;
 
-    Route::get('/', function () {
-        return view('welcome');
-    });
+    // Route::get('/', function () {
+    //     return view('welcome');
+    // });
 
     Route::get('/folio', function () {
         return view('adminPortofolio');
