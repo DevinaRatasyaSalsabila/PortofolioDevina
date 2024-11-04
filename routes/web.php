@@ -12,7 +12,7 @@
         return view('adminPortofolio');
     });
     
-    Route::get('/index', [PortofolioController::class, 'indexLanding']);
+    Route::get('/', [PortofolioController::class, 'indexLanding']);
 
     Route::get('/detailHalaman/{id}', [PortofolioController::class, 'show'])->name('detailHalaman');
 
