@@ -44,11 +44,11 @@
                 <div class="container">
                     <div class="st-main-header-in">
                         {{-- <div class="st-main-header-left st-site-branding"> --}}
-                        {{-- <a href="{{ url('') }}" class="st-btn st-style2 st-color1">Kembali</a> --}}
+                        {{-- <a href="{{ url('/') }}" class="st-btn st-style2 st-color1">Kembali</a> --}}
                         {{-- </div> --}}
                         <div class="st-main-header-left">
                             <a class='st-site-branding'>
-                                <a href="{{ url('') }}">
+                                <a href="{{ url('/') }}">
                                     <h3  style="color:rgb(130, 141, 209)"">
                                         <i class="bi bi-arrow-bar-left"></i>     Kembali
                                     </h3>
